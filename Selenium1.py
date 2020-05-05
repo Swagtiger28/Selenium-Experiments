@@ -25,6 +25,4 @@ try:
         header = article.find_element_by_class_name("entry-summary")
         print(header.text)
 finally:
-    driver.quit()
-
-driver.quit()  # Closes browser
+    driver.quit()   # Closes browser
