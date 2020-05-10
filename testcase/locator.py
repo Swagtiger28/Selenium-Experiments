@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-class MainPageLocator(object):
+class MainPageLocators(object):
     GO_BUTTON = (By.ID, "submit")
 
-class SearchResultPageLocators(object):
+class SearchResultsPageLocators(object):
     pass
